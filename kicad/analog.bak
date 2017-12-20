@@ -1,1 +1,158 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AD8620 U?
+U 1 1 5A3AAB0D
+P 3250 6000
+F 0 "U?" H 3250 6200 50  0000 L CNN
+F 1 "AD8620" H 3250 5800 50  0000 L CNN
+F 2 "" H 3250 6000 50  0001 C CNN
+F 3 "" H 3250 6000 50  0001 C CNN
+	1    3250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8620 U?
+U 1 1 5A3AAB6F
+P 9800 4200
+F 0 "U?" H 9800 4400 50  0000 L CNN
+F 1 "AD8620" H 9800 4000 50  0000 L CNN
+F 2 "" H 9800 4200 50  0001 C CNN
+F 3 "" H 9800 4200 50  0001 C CNN
+	1    9800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8620 U?
+U 2 1 5A3AAC31
+P 9800 5350
+F 0 "U?" H 9800 5550 50  0000 L CNN
+F 1 "AD8620" H 9800 5150 50  0000 L CNN
+F 2 "" H 9800 5350 50  0001 C CNN
+F 3 "" H 9800 5350 50  0001 C CNN
+	2    9800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8620 U?
+U 1 1 5A3AAC81
+P 5950 3750
+F 0 "U?" H 5950 3950 50  0000 L CNN
+F 1 "AD8620" H 5950 3550 50  0000 L CNN
+F 2 "" H 5950 3750 50  0001 C CNN
+F 3 "" H 5950 3750 50  0001 C CNN
+	1    5950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8620 U?
+U 2 1 5A3AACFE
+P 3800 2250
+F 0 "U?" H 3800 2450 50  0000 L CNN
+F 1 "AD8620" H 3800 2050 50  0000 L CNN
+F 2 "" H 3800 2250 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	2    3800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3ABA21
+P 9150 4800
+F 0 "R?" V 9230 4800 50  0000 C CNN
+F 1 "R" V 9150 4800 50  0000 C CNN
+F 2 "" V 9080 4800 50  0001 C CNN
+F 3 "" H 9150 4800 50  0001 C CNN
+	1    9150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3ABA69
+P 9150 5950
+F 0 "R?" V 9230 5950 50  0000 C CNN
+F 1 "R" V 9150 5950 50  0000 C CNN
+F 2 "" V 9080 5950 50  0001 C CNN
+F 3 "" H 9150 5950 50  0001 C CNN
+	1    9150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3ABAB9
+P 8200 4800
+F 0 "R?" V 8280 4800 50  0000 C CNN
+F 1 "R" V 8200 4800 50  0000 C CNN
+F 2 "" V 8130 4800 50  0001 C CNN
+F 3 "" H 8200 4800 50  0001 C CNN
+	1    8200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A3ABB00
+P 8200 3600
+F 0 "R?" V 8280 3600 50  0000 C CNN
+F 1 "R" V 8200 3600 50  0000 C CNN
+F 2 "" V 8130 3600 50  0001 C CNN
+F 3 "" H 8200 3600 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5450 9150 5450
+Wire Wire Line
+	9150 4950 9150 5800
+Connection ~ 9150 5450
+Wire Wire Line
+	9500 4300 9150 4300
+Wire Wire Line
+	9150 4300 9150 4650
+Wire Wire Line
+	9500 5250 9350 5250
+Wire Wire Line
+	9350 5250 9350 4300
+Connection ~ 9350 4300
+$EndSCHEMATC

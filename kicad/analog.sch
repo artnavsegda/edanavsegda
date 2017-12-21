@@ -657,4 +657,15 @@ Wire Wire Line
 Wire Wire Line
 	5400 4050 1500 4050
 Connection ~ 1500 4900
+$Comp
+L D_Schottky_x2_Serial_AKC D?
+U 1 1 5A3C3423
+P 4350 2700
+F 0 "D?" H 4400 2600 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial_AKC" H 4350 2800 50  0000 C CNN
+F 2 "" H 4350 2700 50  0001 C CNN
+F 3 "" H 4350 2700 50  0001 C CNN
+	1    4350 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

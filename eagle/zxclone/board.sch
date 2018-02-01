@@ -530,7 +530,7 @@ Based on the following sources:
 </plain>
 <instances>
 <instance part="IC1" gate="1" x="76.2" y="45.72"/>
-<instance part="IC2" gate="A" x="0" y="83.82"/>
+<instance part="IC2" gate="A" x="0" y="86.36"/>
 <instance part="IC2" gate="B" x="0" y="66.04"/>
 <instance part="IC2" gate="C" x="0" y="48.26"/>
 <instance part="IC2" gate="D" x="0" y="30.48"/>
@@ -545,6 +545,33 @@ Based on the following sources:
 <wire x1="33.02" y1="66.04" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="1" pin="CLK"/>
 <wire x1="33.02" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I1"/>
+<wire x1="-12.7" y1="83.82" x2="-20.32" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="83.82" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="I1"/>
+<wire x1="-20.32" y1="63.5" x2="-12.7" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="O"/>
+<wire x1="12.7" y1="86.36" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="86.36" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="76.2" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="76.2" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="I0"/>
+<wire x1="-15.24" y1="68.58" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="/RAS" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I0"/>
+<wire x1="-12.7" y1="88.9" x2="-71.12" y2="88.9" width="0.1524" layer="91"/>
+<label x="-66.04" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

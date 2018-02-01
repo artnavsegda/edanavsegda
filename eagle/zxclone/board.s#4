@@ -6094,7 +6094,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="IC2" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*86" device="N" package3d_urn="urn:adsk.eagle:package:2921/1" technology="LS"/>
 <part name="IC3" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*74" device="N" package3d_urn="urn:adsk.eagle:package:2921/1" technology="LS"/>
 <part name="IC4" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:2921/1" technology="LS"/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:25939/1" value="510"/>
 <part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1"/>
 <part name="IC5" library="memory" library_urn="urn:adsk.eagle:library:279" deviceset="2164" device="" package3d_urn="urn:adsk.eagle:package:19066/1"/>
 <part name="IC6" library="memory" library_urn="urn:adsk.eagle:library:279" deviceset="2164" device="" package3d_urn="urn:adsk.eagle:package:19066/1"/>

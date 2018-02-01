@@ -6169,11 +6169,47 @@ Source: 008-0260-0_E.pdf</description>
 <net name="/RAS" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="I0"/>
-<wire x1="-12.7" y1="88.9" x2="-55.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="88.9" x2="-40.64" y2="88.9" width="0.1524" layer="91"/>
 <label x="-53.34" y="88.9" size="1.778" layer="95"/>
 <pinref part="IC3" gate="B" pin="Q"/>
+<wire x1="-40.64" y1="88.9" x2="-55.88" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="88.9" x2="-55.88" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="63.5" x2="-68.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="88.9" x2="-40.64" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-40.64" y="88.9"/>
+<wire x1="-40.64" y1="35.56" x2="-58.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="35.56" x2="-58.42" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="A" pin="!RAS"/>
+<wire x1="-58.42" y1="2.54" x2="-53.34" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A" pin="!RAS"/>
+<wire x1="-93.98" y1="2.54" x2="-99.06" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="2.54" x2="-99.06" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="35.56" x2="-58.42" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-58.42" y="35.56"/>
+<pinref part="IC10" gate="A" pin="!RAS"/>
+<wire x1="-58.42" y1="2.54" x2="-58.42" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-40.64" x2="-53.34" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="-58.42" y="2.54"/>
+<pinref part="IC6" gate="A" pin="!RAS"/>
+<wire x1="-99.06" y1="2.54" x2="-99.06" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="-40.64" x2="-93.98" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="-99.06" y="2.54"/>
+<pinref part="IC7" gate="A" pin="!RAS"/>
+<wire x1="-99.06" y1="-40.64" x2="-99.06" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="-86.36" x2="-93.98" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="-99.06" y="-40.64"/>
+<pinref part="IC11" gate="A" pin="!RAS"/>
+<wire x1="-58.42" y1="-40.64" x2="-58.42" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-86.36" x2="-53.34" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-40.64"/>
+<pinref part="IC8" gate="A" pin="!RAS"/>
+<wire x1="-99.06" y1="-86.36" x2="-99.06" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="-129.54" x2="-93.98" y2="-129.54" width="0.1524" layer="91"/>
+<junction x="-99.06" y="-86.36"/>
+<pinref part="IC12" gate="A" pin="!RAS"/>
+<wire x1="-58.42" y1="-86.36" x2="-58.42" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-129.54" x2="-53.34" y2="-129.54" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-86.36"/>
 </segment>
 </net>
 <net name="N$4" class="0">

@@ -7597,6 +7597,7 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="CENTER2" gate="A" pin="1Y"/>
 <wire x1="71.12" y1="-43.18" x2="60.96" y2="-43.18" width="0.1524" layer="91"/>
+<label x="63.5" y="-43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="A" pin="A1"/>
